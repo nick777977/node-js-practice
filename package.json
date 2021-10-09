@@ -1,0 +1,20 @@
+{
+  "name": "node-js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick777977/node-js-practice.git"
+  },
+  "author": "nick777977",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick777977/node-js-practice/issues"
+  },
+  "homepage": "https://github.com/nick777977/node-js-practice#readme"
+}
