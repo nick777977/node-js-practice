@@ -1,4 +1,4 @@
-const http = require('http');
+// const http = require('http');
 
 const express = require('express');
 
@@ -14,6 +14,8 @@ app.use((req, res, next) => {
   res.send('<h1>Hello from Express!</h1>'); // .send() auto-sets header for content type if u r passing a string
 });
 
-const server = http.createServer(app);
+// const server = http.createServer(app);
+//
+// server.listen(3000);
 
-server.listen(3000);
+app.listen(3000);
