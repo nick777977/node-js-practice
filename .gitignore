@@ -107,3 +107,5 @@ dist
 /.idea/modules.xml
 /.idea/node-js-practice.iml
 /.idea/vcs.xml
+/.idea/watcherTasks.xml
+/.idea/workspace.xml
