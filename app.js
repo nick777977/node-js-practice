@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
+app.set('view engine', 'pug'); // use pug template engine
+app.set ('views', 'views'); // find templates in views folder
 const adminData = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
