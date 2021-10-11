@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/nick777977/node-js-practice#readme",
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "prettier": "2.4.1"
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "dependencies": {
     "body-parser": "^1.19.0",
